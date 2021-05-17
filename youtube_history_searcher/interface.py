@@ -42,7 +42,7 @@ def welcome():
     print("                                                                   ")
     print("Search any English word or phrase however far back in your YouTube history! If the transcript is "
           "available, of course :)\n")
-    print(Font.RED + "COMMAND + DOUBLE CLICK" + Font.END + " to quickly open links.\n")
+    print(Font.BLUE + "COMMAND + DOUBLE CLICK" + Font.END + " to quickly open links.\n")
 
 
 def path():
@@ -115,9 +115,12 @@ def new_search(req, new_line=None):
 
 
 def login():
-    print("Sign in\nUse your Google Account")
+    print("Sign in")
+    print("Use your Google Account\n")
+    print(Font.RED + "Your credentials will " + Font.BOLD + "not" + Font.END, end=' ')
+    print(Font.RED + "be stored anywhere." + Font.END)
 
-    username = input("Email or phone:\t")
+    username = input("\nEmail or phone:\t")
     password = getpass("Password:\t")
 
     # clear login fields

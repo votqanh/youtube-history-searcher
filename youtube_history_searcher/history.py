@@ -22,7 +22,7 @@ def download(username, password):
     counter = 0
 
     options = Options()
-    options.headless = False
+    options.headless = True
 
     fp = webdriver.FirefoxProfile()
     fp.set_preference("browser.download.folderList", 2)
