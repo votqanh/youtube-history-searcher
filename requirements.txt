@@ -1,0 +1,4 @@
+prompt_toolkit==3.0.6
+enquiries==0.1.0
+selenium==3.141.0
+youtube_transcript_api==0.3.1
