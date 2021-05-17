@@ -1,0 +1,4 @@
+.DS_Store/
+venv/
+*.log
+no_cc_ids.txt
